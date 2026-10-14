@@ -8,5 +8,5 @@ cask "frtmproxy" do
 
   app "FRTMProxy.app"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 end
